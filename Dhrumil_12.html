@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Demo CSS3</title>
+        <style type="text/css">
+            div
+            {
+                height:400px;
+                width:600px;
+                transition:2.5s;
+                font-size:25px;
+                font-weight:bold;
+                color:#f5d0d0;
+                background-color:#63415e;
+            }
+            
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(100px,100px);
+                   -moz-transform:translate(100px,100px);
+                    -ms-transform:translate(100px,100px);
+                     -o-transform:translate(100px,100px);
+                        transform:translate(100px,100px);
+                      background-color:#7d453b;
+                      color:#140111; 
+            }
+			
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:#7d453b;
+                      color:#000000; 
+         
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:#7d453b;
+                      color:#000000; 
+         
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(45deg);
+                   -moz-transform:skew(45deg);
+                    -ms-transform:skew(45deg);
+                     -o-transform:skew(45deg);
+                        transform:skew(45deg);
+                      background-color:#7d453b;
+                      color:#000000; 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1,0.7);
+                   -moz-transform:scale(1,0.7);
+                    -ms-transform:scale(1,0.7);
+                     -o-transform:scale(1,0.7);
+                        transform:scale(1,0.7);
+                      background-color:#7d453b;
+                      color:#000000; 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:0.5;
+	background-color:#7d453b;
+	color:black;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(125, 69, 59,1.5);
+	color:black;
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:15px 15px 15px black;
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:5px 5px 5px black;
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:20%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body bgcolor="#382222" align="center">
+        <div id="TranslateDiv">Royal Enfield
+	<img src="https://images.carandbike.com/bike-images/gallery/royal-enfield/classic-350/exterior/re-classic-350-sideview.webp?v=2021-09-01"
+		style="height:350px;width:100%;">
+</div><hr />
+        <div id="RotateDiv">HD Muscle
+	<img src="https://i.ytimg.com/vi/f7V0abNlrOI/maxresdefault.jpg"
+		style="height:350px;width:100%;">
+                </div><hr />
+		<div id="RotateDiv3D">Hayabusa
+	<img src="https://2d5cd3.hostroomcdn.com/wp-content/uploads/2020/09/GSX1300RRQM2_Hero.jpg"
+		style="height:350px;width:100%;">
+	</div><hr />
+        <div id="SkewDiv">Hayabusa Coustom
+<img src="https://i.pinimg.com/originals/95/f7/a3/95f7a3600800da495c0d2bc7f5c291bf.jpg"
+		style="height:350px;width:100%;">
+</div><hr />
+        <div id="ScaleDiv">MV Agusta
+<img src="https://c.ndtvimg.com/2019-11/8ge8itmg_2020-mv-agusta-brutale-1000-rr_625x300_05_November_19.jpg"
+		style="height:350px;width:100%;">
+</div><hr />
+        <div id="OpacityDiv">Suzuki GSX-R1000R
+<img src="https://www.rushlane.com/wp-content/uploads/2020/07/2021-suzuki-gsx-r-1000r-launch-1.jpg"
+		style="height:350px;width:100%;">
+</div><hr />
+        <div id="RGBADiv">BMW
+<img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200923075134_bmw-m-1000-r.jpg&w=700&q=90&c=1"
+		style="height:350px;width:100%;">
+</div><hr />
+        <div id="BoxShadowDiv">Hornet
+<img src="https://www.carblogindia.com/wp-content/uploads/2018/08/2018-Honda-CB-Hornet-160R-1-1200x900.png"
+		style="height:350px;width:100%;">
+</div><hr />
+        <div id="TextShadowDiv">Aprilia RSV4
+<img src="https://wide.piaggiogroup.com/articles/products/aprilia-rsv4-1100-factory-e-rsv4-1000-rr-emozioni-racing/g2/full/4.jpg"
+		style="height:350px;width:100%;">
+</div><hr />
+		<div id="BorderRadiusDiv">Ducati
+<img src="https://ultimatemotorcycling.com/wp-content/uploads/2018/11/2019-ducati-panigale-v4-r-first-look-preview-7.jpg"
+		style="height:350px;width:100%;">
+</div><hr />
+		<div id="OverFlowDiv">Kawasaki  Ninja<br>
+				      Kawasaki  Ninja
+<img src="https://i0.wp.com/www.asphaltandrubber.com/wp-content/uploads/2017/11/2018-Kawasaki-Ninja-H2-SX-01.jpg?fit=1600%2C1120&ssl=1"
+		style="height:350px;width:100%;">
+  </div><hr/>
+    </body>
+</html>
